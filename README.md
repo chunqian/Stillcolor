@@ -1,7 +1,7 @@
 
 
 # Stillcolor for macOS
-<img src="https://github.com/aiaf/Stillcolor/assets/119462/26f4fe39-44bb-436d-9348-fc5ba9e8dfde" align=left width=256>
+<img src="/Logo.png" align=left width=256>
 Save your eyesight and disable temporal dithering on your Mac with Stillcolor, a lightweight menu bar app for macOS running on Apple M1/M2/M3.  
 
 * * *
