@@ -34,7 +34,7 @@ struct StillcolorApp: App {
                 }
             ))
             
-            Toggle("Disable uniformity2D", isOn: .init(
+            Toggle("Disable Uniformity2D", isOn: .init(
                 get: { disableUniformity2D },
                 set: {
                     disableUniformity2D = $0
@@ -42,14 +42,14 @@ struct StillcolorApp: App {
                 }
             ))
             
-            Label {
-                Text("(Experimental) Stop built-in display from\nusing lower brightness levels around the edges")
-                    .font(.caption)
-                    .fontWeight(.thin)
-                    .foregroundColor(.secondary)
-                    .multilineTextAlignment(.leading)
-            } icon: {
-            }
+            // Label {
+            //     Text("(Experimental) Stop built-in display from\nusing lower brightness levels around the edges")
+            //         .font(.caption)
+            //         .fontWeight(.thin)
+            //         .foregroundColor(.secondary)
+            //         .multilineTextAlignment(.leading)
+            // } icon: {
+            // }
             
             Divider()
             LaunchAtLogin.Toggle()
